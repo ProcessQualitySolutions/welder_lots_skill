@@ -1,0 +1,33 @@
+{
+  "project": "Unit 40 Piping",
+  "generated_by": "QCDatabase.AI",
+  "settings": {"lot_perc": 20, "quals_required": 2, "bust_lim": 2, "nde_types": ["RT"]},
+  "welders": [
+    {
+      "wid": "12", "name": "John Doe", "start_date": null,
+      "welds": [
+        {"weld_number": "W-1001", "date_welded": "2026-01-05", "joint": "BW", "loc": "shop", "wps": "P1", "size": "6", "sch": "40", "drawing": "U40-L12-S1", "package": "PKG-A", "spec": "A106", "nde": [{"type": "RT", "pass": true, "report": "R-500", "date": "2026-01-10"}]},
+        {"weld_number": "W-1002", "date_welded": "2026-01-06", "joint": "BW", "loc": "shop", "wps": "P1", "size": "6", "sch": "40", "drawing": "U40-L12-S1", "package": "PKG-A", "spec": "A106", "nde": [{"type": "RT", "pass": true, "report": "R-501", "date": "2026-01-11"}]},
+        {"weld_number": "W-1003", "date_welded": "2026-01-07", "joint": "BW", "loc": "field", "wps": "P1", "size": "8", "sch": "40", "drawing": "U40-L12-S2", "package": "PKG-A", "spec": "A106"},
+        {"weld_number": "W-1004", "date_welded": "2026-01-08", "joint": "BW", "loc": "field", "wps": "P1", "size": "8", "sch": "40", "drawing": "U40-L12-S2", "package": "PKG-A", "spec": "A106", "nde": [{"type": "RT", "pass": true, "report": "R-502", "date": "2026-01-12"}]},
+        {"weld_number": "W-1005", "date_welded": "2026-01-09", "joint": "BW", "loc": "shop", "wps": "P1", "size": "6", "sch": "40", "drawing": "U40-L12-S2", "package": "PKG-A", "spec": "A106"},
+        {"weld_number": "W-1006", "date_welded": "2026-01-10", "joint": "BW", "loc": "shop", "wps": "P1", "size": "6", "sch": "40", "drawing": "U40-L12-S3", "package": "PKG-A", "spec": "A106"},
+        {"weld_number": "W-1007", "date_welded": "2026-01-11", "joint": "BW", "loc": "shop", "wps": "P1", "size": "6", "sch": "80", "drawing": "U40-L12-S3", "package": "PKG-A", "spec": "A106", "reweld_code": "R"}
+      ]
+    },
+    {
+      "wid": "34", "name": "Jane Roe", "start_date": null,
+      "welds": [
+        {"weld_number": "W-2001", "date_welded": "2026-02-01", "joint": "BW", "loc": "shop", "wps": "P2", "size": "4", "sch": "40", "drawing": "U40-L20-S1", "package": "PKG-B", "spec": "A312", "nde": [{"type": "RT", "pass": true, "report": "R-600", "date": "2026-02-05"}]},
+        {"weld_number": "W-2002", "date_welded": "2026-02-02", "joint": "BW", "loc": "shop", "wps": "P2", "size": "4", "sch": "40", "drawing": "U40-L20-S1", "package": "PKG-B", "spec": "A312", "nde": [{"type": "RT", "pass": false, "report": "R-601", "date": "2026-02-06"}]},
+        {"weld_number": "W-2003", "date_welded": "2026-02-03", "joint": "BW", "loc": "field", "wps": "P2", "size": "4", "sch": "40", "drawing": "U40-L20-S2", "package": "PKG-B", "spec": "A312", "nde": [{"type": "RT", "pass": false, "report": "R-602", "date": "2026-02-07"}]},
+        {"weld_number": "W-2004", "date_welded": "2026-02-04", "joint": "BW", "loc": "field", "wps": "P2", "size": "4", "sch": "40", "drawing": "U40-L20-S2", "package": "PKG-B", "spec": "A312"},
+        {"weld_number": "W-2005", "date_welded": "2026-02-05", "joint": "BW", "loc": "shop", "wps": "P2", "size": "4", "sch": "40", "drawing": "U40-L20-S3", "package": "PKG-B", "spec": "A312"}
+      ]
+    },
+    {
+      "wid": "56", "name": "Sam Smith", "start_date": null,
+      "welds": []
+    }
+  ]
+}
